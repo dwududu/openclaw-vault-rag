@@ -5,7 +5,7 @@ A drop-in RAG system that indexes your OpenClaw workspace/vault into ChromaDB, p
 ## Quick Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/[YOUR_USER]/openclaw-vault-rag/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dwududu/openclaw-vault-rag/main/install.sh | bash
 ```
 
 Or manually:
