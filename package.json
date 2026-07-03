@@ -19,7 +19,9 @@
     "SKILL.md",
     "index_vault.py",
     "rag.sh",
+    "rag-search.sh",
     "install.sh",
+    "requirements.txt",
     "README.md"
   ]
 }
