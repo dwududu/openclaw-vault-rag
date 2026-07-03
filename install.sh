@@ -1,6 +1,6 @@
 #!/bin/bash
 # vault-rag installer for OpenClaw
-# Run: curl -fsSL https://raw.githubusercontent.com/[USER]/openclaw-vault-rag/main/install.sh | bash
+# Run: curl -fsSL https://raw.githubusercontent.com/dwududu/openclaw-vault-rag/main/install.sh | bash
 set -e
 
 echo "🔨 Installing Vault RAG for OpenClaw..."
@@ -14,10 +14,10 @@ if command -v git &>/dev/null && [ -d "$RAG_DIR" ]; then
     echo "   Run: cd $RAG_DIR && git pull"
 elif command -v git &>/dev/null; then
     echo "   Cloning from GitHub..."
-    git clone https://github.com/[USER]/openclaw-vault-rag.git "$RAG_DIR"
+    git clone https://github.com/dwududu/openclaw-vault-rag.git "$RAG_DIR"
 else
     echo "❌ Git not found. Clone manually:"
-    echo "   git clone https://github.com/[USER]/openclaw-vault-rag.git $RAG_DIR"
+    echo "   git clone https://github.com/dwududu/openclaw-vault-rag.git $RAG_DIR"
     exit 1
 fi
 
