@@ -2,7 +2,7 @@
   "name": "vault-rag",
   "version": "1.0.0",
   "description": "Persistent semantic memory for OpenClaw agents using ChromaDB + Ollama. Indexes vault/workspace files and provides RAG search.",
-  "author": "Molly (David Wu)",
+  "author": "vault-rag contributors",
   "license": "MIT",
   "repository": {
     "type": "git",

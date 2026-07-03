@@ -82,7 +82,7 @@ Edit `~/.openclaw/workspace/rag/index_vault.py` top section:
 
 ## Performance
 
-- ~300 chunks/minute on Tegra/ARM (GPU-accelerated qwen3-embedding)
+- ~300 chunks/minute on ARM/Tegra (GPU-accelerated qwen3-embedding)
 - ~800 chunks/minute on x86 with good CPU
 - Queries return in 0.5–2s
 

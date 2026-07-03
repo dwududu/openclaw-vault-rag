@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ClawBox Vault RAG — ChromaDB + Ollama qwen3-embedding
+Vault RAG — ChromaDB + Ollama qwen3-embedding
 ======================================================
 Indexes markdown/text files into a local Chroma vector database
 with semantic search via Ollama embeddings (1024-dim).
@@ -154,7 +154,7 @@ def index_workspace():
     collection = client.create_collection(
         name="vault",
         embedding_function=ef,
-        metadata={"description": "ClawBox vault RAG index", "model": EMBED_MODEL}
+        metadata={"description": "Workspace vault RAG index", "model": EMBED_MODEL}
     )
 
     total_files = total_chunks = 0
