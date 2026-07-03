@@ -1,3 +1,10 @@
+---
+name: vault-rag
+description: "Semantic search over your OpenClaw workspace/vault using ChromaDB + Ollama embeddings. Fully local, no cloud APIs."
+license: MIT
+homepage: https://github.com/dwududu/openclaw-vault-rag
+---
+
 # Vault RAG — OpenClaw Skill
 
 Transforms your OpenClaw workspace/vault into a queryable semantic memory. Every agent gets persistent RAG across all your markdown, notes, and project files — fully local, zero cloud APIs.
