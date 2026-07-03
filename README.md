@@ -29,8 +29,10 @@ cd ~/.openclaw/skills/vault-rag
 ~/.openclaw/workspace/rag/
 ├── index_vault.py        # Index, update, query pipeline
 ├── rag.sh                # Wrapper for agent shell access
+├── requirements.txt      # Python dependencies
 ├── chroma_db/            # Chroma persistent vector store
 ├── index_state.json      # File hash state for incremental updates
+├── install.sh            # One-command installer
 └── SKILL.md              # Agent skill definition
 ```
 
@@ -38,9 +40,9 @@ cd ~/.openclaw/skills/vault-rag
 
 - OpenClaw (obviously)
 - Ollama (`curl -fsSL https://ollama.com/install.sh | sh`)
-- Python 3.10+ with `chromadb` and `ollama` packages
+- Python 3.10+ (deps in `requirements.txt`)
 
-The installer handles package deps automatically.
+The installer handles package deps automatically via `requirements.txt`.
 
 ## Usage
 
